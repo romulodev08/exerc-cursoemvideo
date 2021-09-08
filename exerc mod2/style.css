@@ -1,0 +1,151 @@
+html body{
+    display: grid;
+    margin: 0;
+    background: rgb(238, 208, 153);
+}
+
+/*cabeçalho*/
+#cabeçalho{
+    background: linear-gradient(#32BF84, rgba(0, 158, 0, 0.774), darkgreen);
+    color: white;
+    font: normal 20px Serif;
+}
+#cabeçalho h1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font: normal 40pt serif;
+}
+#cabeçalho p{
+    text-indent: 0;
+    max-width: 600px;
+    text-align: center;
+    margin: auto;
+    padding: 0 10px 10px 10px;
+}
+#cabeçalho a{
+    display: inline-table;
+    text-decoration-line: none;
+    font: normal 16pt Arial;
+    border-radius: 7px;
+    padding: 10px 5px 10px 5px;
+    margin-left: 5px;
+    color: white;
+}
+#cabeçalho a:hover{
+    background: rgba(0, 158, 0, 0.774);
+}
+
+
+
+
+/*geral*/
+#container{/*container do conteúdo*/
+    max-width: 1270px;
+    background: white;
+    border: solid 3px rgb(246, 227, 192);
+    margin: auto;
+    box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.459);
+}
+h1{
+    font: normal 25pt Verdana;
+    color: darkgreen;
+    text-align: left;
+}
+h2{
+    text-align: left;
+    text-indent: 10px;
+    color: darkgreen;
+    background: linear-gradient(90deg, #5ee0aa, rgb(255, 255, 255));
+}
+mark{
+    background: rgb(146, 230, 146);
+}
+
+
+
+
+
+/*conteúdo*/
+#conteúdo{
+    width: calc(100% - 50px);
+    max-width: 1100px;
+    margin: auto;
+    text-align: center;
+}
+p{
+    font: normal 18pt Arial;
+    text-indent: 30px;
+    text-align: left;
+}
+
+
+picture img{
+    width: 100%;
+}
+#mascotes img{
+    widows: 100%;
+}
+
+
+
+.imgirina {
+    margin: auto;
+    width: 100%;
+}
+#uniao{
+    align-items: center;
+    width: 65%;
+}
+iframe{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+
+
+#aprendermais{
+    width: 100%;
+    margin: 0;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 0 10px 0;
+    text-indent: 20px;
+    background: rgb(10, 68, 10);
+    color: white;
+}
+#aprender{
+    margin: 0;
+    background: rgb(174, 241, 174);
+    padding: 20px 20px 20px 20px;
+    border-radius: 0 0 20px 20px;
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.555);
+}
+#aprender p{
+    margin: 15px 0 15px;
+
+}
+#aprender a{
+    color: rgb(10, 95, 10);
+    text-decoration-line: none;
+}
+table{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+td{
+    text-align: left;
+    font: normal 15pt Arial;
+    background: linear-gradient(90deg, rgb(174, 241, 174), rgb(186, 245, 186), rgb(174, 241, 174));
+}
+/*frase final*/
+#copy{
+    margin: 0;
+    padding: 8px;
+    text-align: center;
+    margin-top: 30px;
+    background: rgb(10, 68, 10);
+    color: white;
+}
